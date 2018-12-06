@@ -9,8 +9,8 @@ city = {"IND": {"MH":["Pune", "Mumbai", "Nagpur"],
 
 
 for country in city:
-    print(country)
+    print("-"+country)
     for state in city[country]:
-        print("\t"+state)
+        print("\t-"+state)
         for wcity in city[country][state]:
-            print("\t\t"+wcity)
+            print("\t\t-"+wcity)
